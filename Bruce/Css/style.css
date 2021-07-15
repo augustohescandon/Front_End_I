@@ -30,6 +30,15 @@ footer {
   background-color: #005677;
 }
 
-p {
+
+dl span {
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
   color: #ffffff;
 }
