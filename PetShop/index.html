@@ -6,35 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PetShop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/solid.css" integrity="sha384-LA8Ug4T/nhVkyhrSmSirsoAo9iDrBk8E7U80aSPeD+w3vO8PzOJIS6agGcbIwwX0" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/fontawesome.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/style.css">
 </head>
 
 <body>
     <header>
-        <section>
+        <section class="menu">
             <p>Grandes ofertas en comederos</p>
             <ul>
-                <li>Español</li>
-                <li>ARG$</li>
-                <img src="Img/Seccion_header/Logo.png" alt="Logo Cat&Dog">
-            </ul>
-            <nav>
-                <ul>
-                    <li>Categorías</li>
-                    <li>Pets</li>
-                    <li>Nosotros</li>
-                    <li>Contactanos</li>
-                </ul>
-            </nav>
+                <li type="none">Español<i class="fas fa-chevron-down"></i></li>
+                <li type="none">ARG$<i class="fas fa-chevron-down"></i></li>
         </section>
+        <nav>
+            <img src="Img/Seccion_header/Logo.png" alt="Logo Cat&Dog">
+            <ul>
+                <li type= "none"><i class="fas fa-paw"></i>Categorías</li>
+                <li type= "none"><i class="fas fa-paw"></i>Pets</li>
+                <li type= "none"><i class="fas fa-paw"></i>Nosotros</li>
+                <li type= "none"><i class="fas fa-paw"></i>Contactanos</li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <section>
-            <img src="Img/Seccion_main/bowl-and-pet-daities-on-green-background 1.png" alt="Imagen bowl">
-            <p>¡Es un placer tenerte aquí!</p>
+        <h2 class="principal">¡Es un placer tenerte aquí!</h2>
+        <section class="banner">
             <p>¡Comederes en descuento!</p>
-            <p>COMEDEROS</p>
+            <p class="button">COMEDEROS</p>
         </section>
-        <section>
+        <section class="articles">
             <img src="Img/Seccion_main/pawprint 1.png" alt="Imagen patita">
             <h2>Productos Destacados</h2>
             <span>
@@ -60,7 +64,14 @@
         </section>
     </main>
     <footer>
+        <section class="principal">
+            <p>Localidad</p>
+            <p>Teléfono</p>
+            <p>Correo electrónico</p>
+        </section>
+        <section class="derechos">
         <p>Todos los derechos reservados Front End</p>
+        </section>
     </footer>
 </body>
 

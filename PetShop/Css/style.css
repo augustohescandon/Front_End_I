@@ -1,0 +1,74 @@
+header section.menu{
+    background-color: #000;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11,72px;
+}
+
+header nav{
+    background-color: #F0A83E;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15,23px;
+    
+}
+
+main h2.principal{
+    color: #3C2313;  
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35,16px;
+    text-align: center;
+}
+
+main section.banner {
+    height: 409px;
+    width: 100%;
+    background-image: url('../Img/Seccion_main/bowl-and-pet-daities-on-green-background\ 1.png');
+    background-size: cover;
+}
+
+main section.banner p{
+    color: #3C2313;  
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18,75px;
+    text-align: center;
+}
+
+main section p.button{
+    color: #FFF;
+}
+
+main section.articles h2{
+    color: #3C2313;  
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35,16px;
+    text-align: center;
+}
+
+footer section.principal{
+    background-color: #3C2313;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+footer section.derechos{
+    background-color: #F0A83E;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+
