@@ -1,0 +1,134 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+.discount{
+    background-color: #1B998B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 8px;
+    width: 100%;
+}
+
+header{
+    background-color: #34495E ;
+    box-shadow: 0px 5px 5px rgba(71, 70, 70, 0.2);
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    
+}
+
+h1.title{
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size:40px;
+    font-weight: 300px;
+}
+
+/*Main*/
+main{
+    background-image: url(../Img/pelicula.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #F3F3F3;
+    border-radius: 20% 20% 0 0;
+    box-shadow: 0px 5px 0px rgba(71, 70, 70, 0.2);
+    margin: 30px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 300px;
+    
+}
+
+.background{
+    position: relative;
+    top: 0;
+    width: 300px;
+    height: 193px;
+}
+
+.fa-heart{
+    font-size: 25px;
+    color: #FF0000;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 8;
+}
+
+
+.profile{
+    border-radius: 50%;
+    box-shadow: 0px 5px 5px rgb(102, 99, 99);
+    width: 118px;
+    height: 120px;
+    position: absolute;
+    top: 130px;
+    left: 90px;
+}
+
+h2{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    padding-top: 75px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+main section article p{
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 0px 17px 37px 16px;
+    text-align: justify;
+}
+
+button{
+    background-color: #34495E ;
+    color: #f3fef3;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 19px;
+    padding: 15px 37px;
+    border-style: solid;
+}
+
+
+/*Footer*/
+footer{
+    background-color: #34495E ;
+    color: #f3fef3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+}
+
+
+/*Media queries*/
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 480px) {
+
+}
